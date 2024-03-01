@@ -3,7 +3,6 @@ import streamlit as st
 import json
 import pandas as pd
 import traceback
-# from dotenv import load_dotenv
 
 # from langchain.chat_models import ChatOpenAI
 from langchain.callbacks import get_openai_callback

@@ -15,7 +15,7 @@ load_dotenv()
 
 
 KEY = os.getenv("OPENAI_API_KEY")
-llm = ChatOpenAI(openai_api_key=KEY, model_name="gpt-3.5-turbo", temperature=0.5)
+llm = ChatOpenAI(openai_api_key=KEY, model_name="davinci-002", temperature=0.5)
 
 with open("response.json", "r") as f:
     RESPONSE_JSON = f.read()
